@@ -1,0 +1,9 @@
+.box{
+    display:flex;
+    margin: 100px;
+    border: solid black;
+    box-shadow: 8px 5px 5px;
+    padding:60px;
+    flex-direction:column;
+    text-align: center;
+}

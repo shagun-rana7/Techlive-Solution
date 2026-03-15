@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: "Noto Sans", serif;
+}
+.banner{
+  background-color:green;
+}
+.banner-text{
+  font-size: 28px;
+color:aliceblue;
+}
+.banner-spacing{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   height:100vh;
+   padding: 50px; 
+   text-align:center;
+}
+.img-fluid{
+  width: 500px;
+}
+ .service-icon {
+  font-size: 8rem;
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+ }
+ .service-icon:hover{
+  color:blue;
+  text-decoration: underline;
+ }
+.service-title{
+  justify-content: center;
+  font-size:30px;
+  color:darkgreen;
+
+  
+} 
+.box::first-letter {
+  text-transform: uppercase;
+  color: green; 
+  font-size: 3em; 
+}
+.box-5 {
+  color:green;
+}
+.mt-5::first-letter{
+text-transform: uppercase;
+color:green;
+font-size: 3em; 
+}
+.course{
+  margin-top: 5vh;
+}
+.text{
+  width: 400px;  /* Set a fixed width */
+  height: 400px; /* Set a fixed height */
+  border-radius: 60%; /* This creates the circular effect */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  width:100%;
+  height:300%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #0c0101;
+  border-radius: 8px;
+  background-color:burlywood;
+  
+}
+
+.services {
+  padding: 0 20px;
+  text-align: justify; 
+}
+
+
+
